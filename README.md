@@ -81,6 +81,7 @@ method overloading for applying discounts
     double fixedDiscount = basicProduct.applyDiscount(100, true); // $100 off
     double quantityDiscount = basicProduct.applyDiscount(15, 20); // 20% off for orders > 10
 ```
+---
 
 - **JavaScript can run scripts on the client-side. Can we use it to directly interact with the database system? Explain your answer**
   No, client-side JavaScript cannot directly interact with a database system due to security risks and browser restrictions. Instead, it sends HTTP requests to a server, which then interacts with the database and returns the results. This ensures security and proper data handling.
